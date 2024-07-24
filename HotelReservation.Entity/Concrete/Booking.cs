@@ -14,7 +14,7 @@ public class Booking : BaseEntity
 	public Guest Guest { get; set; }
 	public DateTime CheckIn { get; set; }
 	public DateTime CheckOut { get; set; }
-	public int NumberOfPeople { get; set; }
+	//public int NumberOfPeople { get; set; }
 	public decimal TotalPrice { get; set; }
-	public string Status { get; set; }
+	//public string Status { get; set; }
 }
